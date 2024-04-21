@@ -23,11 +23,11 @@ export default function Box() {
     console.log(event.target.id);
     console.log(event.target.value);
     const row = event.target.id.slice(0, 2);
-    const col = event.target.id.slice(1, 2);
+    const col = event.target.id.slice(1, 3);
     const lastRow = Number(rowValue) - 1;
     const lastCol = Number(colValue) - 1;
-    console.log(document.getElementById(row + lastCol).value);
-    console.log(document.getElementById(lastRow + col).value);
+    document.getElementById(row + lastCol).value = event.target.value;
+    document.getElementById(lastRow + col).value = event.target.value;
   }
 
   function Grid() {
