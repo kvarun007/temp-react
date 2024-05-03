@@ -9,6 +9,14 @@ import TreeView from './components/tree-view';
 import menus from './components/tree-view/data';
 import QRCodeGenerator from "./components/qr-code-generator"
 import Box from './components/box';
+import LightDarkMode from './components/light-dark-mode';
+import ScrollIndicator from './components/scroll-indicator';
+import TabTest from './components/custom-tabs/tab-test';
+import ModalTest from './components/custom-model/modal-test';
+import GithubProfileFinder from './components/github-profile-finder';
+import Slider from './components/slider-test';
+import SearchAutocomplete from './components/search -autocomplete';
+import InitialPage from './components/test-web';
 
 
 function App() {
@@ -30,8 +38,25 @@ function App() {
 
     {/*<QRCodeGenerator/>*/}
 
-    <Box/>
-    
+    {/*<Box/>*/}
+
+    {/*<LightDarkMode/>*/}
+
+    {/*<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />*/}
+
+    {/*<TabTest/>*/}
+
+    {/*<ModalTest/>*/}
+
+    {/*<GithubProfileFinder/>*/}
+
+    {/*<Slider url={"https://api.unsplash.com/photos/?client_id=XgWKIQ7WiVgZqqwjxNnj-vL0bL5sGrNKyiT5ThBulXg"}/>*/}
+
+
+    {/*<SearchAutocomplete/>*/}
+
+    <InitialPage/>
+
     </div>
   );
 }

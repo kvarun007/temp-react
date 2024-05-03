@@ -1,0 +1,12 @@
+.jokeContainer{
+    border-style: solid;
+}
+
+.categoryBox{
+    border-style: solid;  
+}
+
+
+.categoryContainer{
+    display: flex;
+}
